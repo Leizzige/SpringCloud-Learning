@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @author wengzi
- * @date 2019/10/18 晚上18:25
+ * @date 2019/10/18 afternoon 18:25
  */
 @SpringBootApplication
 @EnableEurekaClient
