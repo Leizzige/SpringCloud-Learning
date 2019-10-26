@@ -6,7 +6,7 @@ import java.util.Collection;
 
 /**
  * @author wengzi
- * @date 2019/10/18 下午18:18
+ * @date 2019/10/18 afternoon 18:18
  */
 public interface StudentRepository {
     Collection findAll();

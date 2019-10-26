@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @author wengzi
- * @date 2019/10/18 晚上18:15
+ * @date 2019/10/18 afternoon 18:15
  */
 @RestController
 @RequestMapping("/student")
