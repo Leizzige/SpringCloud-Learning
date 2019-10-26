@@ -3,6 +3,7 @@ package cn.wengzi.controller;
 import cn.wengzi.entity.Student;
 import cn.wengzi.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -18,6 +19,10 @@ public class StudentHandler {
 
     @Autowired
     private StudentRepository studentRepository;
+
+    @Value("${server.port}")
+    private String port;
+
 
     @GetMapping("/findAll")
     public List<Student> findAll() {
@@ -43,5 +48,10 @@ public class StudentHandler {
     @DeleteMapping("/deleteById/{id}")
     public void deleteById(@PathVariable("id") Long id) {
         studentRepository.deleteById(id);
+    }
+
+    @GetMapping("/getPort")
+    public String getPort() {
+        return "当前端口:" + port;
     }
 }
