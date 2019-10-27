@@ -5,8 +5,6 @@ spring:
     name: server-provider
 eureka:
   client:
-    fetch-registry: true
-    register-with-eureka: true
     service-url:
       defauleZone: http://127.0.0.1:8761/eureka/
   instance:
