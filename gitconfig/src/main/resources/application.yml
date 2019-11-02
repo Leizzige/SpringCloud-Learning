@@ -1,0 +1,20 @@
+server:
+  port: 8763
+
+spring:
+  application:
+    name: git-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wengzi/spring-cloud-gitconfig.git
+          search-paths: git-config-repo
+          username: qx_leizige@163.com
+          password: Zxc233..@
+          default-label: master
+          skip-ssl-validation: true
+eureka:
+  client:
+    service-url:
+      defauleZone: http://127.0.0.1:8761/eureka/
