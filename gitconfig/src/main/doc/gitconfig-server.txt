@@ -2,3 +2,4 @@
     浏览器中输入：http://localhost:8763/gitconfig-dev.yml (ip:port/配置文件名)
       或者
             http://localhost:8763/git-config-repo/dev   (ip:port/文件夹名/profile)
+    浏览器显示配置中心的信息,说明读取成功!
