@@ -1,5 +1,7 @@
 ### 注解和配置文件说明
 
+Spring Boot 2.0 JDK 1.8 Maven license
+
 `server.port` : 当前 Eureka Server 服务端口
 
 `spring.application.name` : 当前服务注册在 Eureka Server 上的名称
