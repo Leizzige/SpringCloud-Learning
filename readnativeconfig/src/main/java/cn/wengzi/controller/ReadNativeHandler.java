@@ -10,17 +10,17 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2019/11/1 night 23:40
  */
 @RestController
-@RequestMapping("readnative")
+@RequestMapping("readNative")
 public class ReadNativeHandler {
 
     @Value("${server.port}")
     private String port;
 
-    @Value("${foo}")
-    private String foo;
+    @Value("${spring.application.name}")
+    private String name;
 
-    @GetMapping("/getPort")
+    @GetMapping("/info")
     public String getPort() {
-        return "端口:" + port + "  " + "版本号:" + foo;
+        return "端口:" + this.port + "  " + "服务名:" + this.name;
     }
 }
