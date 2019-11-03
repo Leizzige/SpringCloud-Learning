@@ -9,6 +9,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  * @date 2019/11/2 afternoon 16:20
  * @description 读取Git远程仓库配置文件
  * @EnableConfigServer 开启 SpringCloud 服务端功能
+ * @description 读取 git存储仓库中的配置文件
  */
 @SpringBootApplication
 @EnableConfigServer
