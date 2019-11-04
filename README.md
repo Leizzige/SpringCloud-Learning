@@ -1,6 +1,6 @@
 ### 注解和配置文件说明
 
-https://travis-ci.org/yangwenmai/how-to-add-badge-in-github-readme.svg?branch=master
+https://img.shields.io/badge/SpringBoot-2.0.2-red.svg
 
 `server.port` : 当前 Eureka Server 服务端口
 
