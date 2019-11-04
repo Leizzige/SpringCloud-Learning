@@ -1,7 +1,8 @@
 ### 注解和配置文件说明
 
 <p align="center">
-  <a href="https://img.shields.io/badge/SpringBoot-2.0.2-green.svg?colorA=#000"><img       src="https://img.shields.io/badge/SpringBoot-2.0.2-green.svg?colorA=#000"></a>
+  <a href="https://img.shields.io/badge/SpringBoot-2.0.2-green.svg?colorA=#000?style=plastic">
+  <img src="https://img.shields.io/badge/SpringBoot-2.0.2-green.svg?colorA=#000?style=plastic"></a>
   
   
 </p>
