@@ -1,7 +1,7 @@
 ### 注解和配置文件说明
 
 <p align="center">
-<a href="https://travis-ci.org/onevcat/Kingfisher"><img src="https://img.shields.io/travis/onevcat/Kingfisher/master.svg"></a>
+<a href="https://img.shields.io/badge/SpringBoot-2.0.2-blue.svg?colorA=abcdef">
 </p>
 
 
