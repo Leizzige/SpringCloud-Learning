@@ -1,6 +1,9 @@
 ### 注解和配置文件说明
 
-https://img.shields.io/badge/SpringBoot-2.0.2-red.svg
+<p align="center">
+<a href="https://travis-ci.org/onevcat/Kingfisher"><img src="https://img.shields.io/travis/onevcat/Kingfisher/master.svg"></a>
+</p>
+
 
 `server.port` : 当前 Eureka Server 服务端口
 
