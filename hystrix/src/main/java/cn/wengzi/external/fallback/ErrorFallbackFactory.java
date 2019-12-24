@@ -1,7 +1,7 @@
-package cn.wengzi.repository.impl;
+package cn.wengzi.external.fallback;
 
 import cn.wengzi.pojo.Student;
-import cn.wengzi.repository.FeignProviderClient;
+import cn.wengzi.external.FeignProviderClient;
 import feign.hystrix.FallbackFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,8 +1,7 @@
 package cn.wengzi.controller;
 
 import cn.wengzi.pojo.Student;
-import cn.wengzi.repository.FeignProviderClient;
-import com.netflix.ribbon.proxy.annotation.Hystrix;
+import cn.wengzi.external.feignclient.FeignProviderClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

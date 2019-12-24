@@ -1,7 +1,7 @@
-package cn.wengzi.repository;
+package cn.wengzi.external;
 
 import cn.wengzi.pojo.Student;
-import cn.wengzi.repository.impl.ErrorFallbackFactory;
+import cn.wengzi.external.fallback.ErrorFallbackFactory;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

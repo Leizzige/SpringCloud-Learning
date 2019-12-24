@@ -3,13 +3,14 @@ server:
 spring:
   application:
     name: consumer-feign
+
 eureka:
   client:
-    register-with-eureka: true
     service-url:
       defauleZone: http://127.0.0.1:8761/eureka/
   instance:
     prefer-ip-address: true
+    hostname: 127.0.0.1
 
 feign:
   hystrix:
