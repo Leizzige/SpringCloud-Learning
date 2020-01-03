@@ -1,7 +1,7 @@
 package cn.wengzi.controller;
 
 import cn.wengzi.entity.Student;
-import cn.wengzi.repository.StudentRepository;
+import cn.wengzi.service.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
@@ -15,6 +15,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/student")
+@SuppressWarnings("unchecked")
 public class StudentHandler {
 
     @Autowired

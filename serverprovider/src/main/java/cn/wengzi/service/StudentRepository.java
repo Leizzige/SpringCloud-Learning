@@ -1,4 +1,4 @@
-package cn.wengzi.repository;
+package cn.wengzi.service;
 
 import cn.wengzi.entity.Student;
 

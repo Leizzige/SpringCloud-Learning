@@ -1,7 +1,7 @@
-package cn.wengzi.repository.impl;
+package cn.wengzi.service.impl;
 
 import cn.wengzi.entity.Student;
-import cn.wengzi.repository.StudentRepository;
+import cn.wengzi.service.StudentRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.Collection;
