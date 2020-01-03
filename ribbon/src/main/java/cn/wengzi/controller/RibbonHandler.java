@@ -1,6 +1,6 @@
 package cn.wengzi.controller;
 
-import cn.wengzi.pojo.Student;
+import cn.wengzi.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
@@ -13,6 +13,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/ribbon")
+@SuppressWarnings("unchecked")
 public class RibbonHandler {
 
     @Autowired
