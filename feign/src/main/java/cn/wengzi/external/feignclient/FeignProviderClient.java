@@ -1,7 +1,7 @@
 package cn.wengzi.external.feignclient;
 
+import cn.wengzi.entity.Student;
 import cn.wengzi.logger.InfoFeignLogger;
-import cn.wengzi.pojo.Student;
 import cn.wengzi.external.fallback.ErrorFallbackFactory;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
