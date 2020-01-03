@@ -13,6 +13,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/rest")
+@SuppressWarnings("unchecked")
 public class RestHandler {
 
     @Autowired
