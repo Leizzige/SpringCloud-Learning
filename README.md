@@ -53,3 +53,11 @@
 `spring.cloud.config.discovery.enabled` : 是否开启 Config 服务发现支持
 
 `spring.cloud.config.discovery.service-id` : 配置中心在 Eureka Server 上注册的名称
+
+`EnableZipkinServer` : 声明启动Zipkin Server
+
+`sleuth.web.client.enable`: 开启Zipkin请求跟踪
+
+`sleuth.client.enable`:设置采样比例
+
+`zipkin.base-url` : Zipkin Server 访问地址
