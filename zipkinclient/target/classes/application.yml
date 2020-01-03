@@ -1,0 +1,16 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: zipkinclient
+  #开启请求跟踪
+  sleuth:
+    web:
+      client:
+        enabled: true
+    ##设置采样比例 默认1.0
+    sampler:
+      probability: 1.0
+  #zipkin server 访问地址
+  zipkin:
+    base-url: http://127.0.0.1:9090/
