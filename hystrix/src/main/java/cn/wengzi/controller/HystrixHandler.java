@@ -1,7 +1,7 @@
 package cn.wengzi.controller;
 
-import cn.wengzi.pojo.Student;
-import cn.wengzi.repository.FeignProviderClient;
+import cn.wengzi.entity.Student;
+import cn.wengzi.external.FeignProviderClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
