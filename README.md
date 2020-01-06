@@ -32,6 +32,10 @@
 
 `feign.hystrix.enabled` : 是否开启熔断器
 
+`feign.compression.request.enabled=true` : 请求压缩
+
+`feign.compression.rersponse.enabled=true` : 请求压缩
+
 `management.endpoints.web.exposure.include` : 通过 hystrix.stream 节点来监控数据
 
 `profiles.active` : 配置文件的获取方式，设置为本地启动的方式，而不是通过git
