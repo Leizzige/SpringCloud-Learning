@@ -1,7 +1,7 @@
 package cn.wengzi.service.impl;
 
 import cn.wengzi.entity.Student;
-import cn.wengzi.service.StudentRepository;
+import cn.wengzi.service.StudentMapper;
 import org.springframework.stereotype.Component;
 
 import java.util.Collection;
@@ -14,7 +14,7 @@ import java.util.Map;
  * @date 2019/10/18 afternoon 18:11
  */
 @Component
-public class StudentRepositoryImpl implements StudentRepository {
+public class StudentMapperImpl implements StudentMapper {
 
     private static Map<Object, Student> dbStudentMap = null;
 

@@ -8,7 +8,7 @@ import java.util.Collection;
  * @author wengzi
  * @date 2019/10/18 afternoon 18:18
  */
-public interface StudentRepository {
+public interface StudentMapper {
     Collection findAll();
 
     Student findById(Long id);

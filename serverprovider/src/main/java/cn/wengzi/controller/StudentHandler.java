@@ -1,7 +1,7 @@
 package cn.wengzi.controller;
 
 import cn.wengzi.entity.Student;
-import cn.wengzi.service.StudentRepository;
+import cn.wengzi.service.StudentMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
@@ -19,7 +19,7 @@ import java.util.List;
 public class StudentHandler {
 
     @Autowired
-    private StudentRepository studentRepository;
+    private StudentMapper studentRepository;
 
     @Value("${server.port}")
     private String port;
