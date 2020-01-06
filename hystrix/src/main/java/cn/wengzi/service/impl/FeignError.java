@@ -1,10 +1,11 @@
-package cn.wengzi.external.fallback;
+package cn.wengzi.service.impl;
 
-import cn.wengzi.pojo.Student;
-import cn.wengzi.external.FeignProviderClient;
+import cn.wengzi.entity.Student;
+import cn.wengzi.service.FeignProviderClient;
 import org.springframework.stereotype.Component;
 
 import java.util.Collection;
+
 
 /**
  * @author wengzi

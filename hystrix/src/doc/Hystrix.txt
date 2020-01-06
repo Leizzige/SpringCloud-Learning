@@ -1,5 +1,23 @@
-- 启动成功之后:
-    访问
-        `http://localhost:8060/actuator/hystrix.stream` 可以监控到请求数据，
--   访问
-        `http://localhost:8060/hystrix`,可以看到可视化的监控界面,输入要监控的地址节点即可看到该节点的可视化数据监控。
+
+Hystrix Dashboard 支持三种不同的监控方式
+一:
+    默认的集群监控：通过 URL http://turbine-hostname:port/turbine.stream 开启 实现对默认集群监控
+二:
+    指定集群监控: 通过 URL http://turbine-hostname:port/turbine.stream=[clusterName] 开启 实现对 clusterName 集群的监控
+三:
+    单体应用监控: 通过 URL http://localhost:8060/actuator/hystrix.stream 开启 实现对具体某个服务实例的监控
+    - 启动成功之后:
+        访问
+            `http://localhost:8060/actuator/hystrix.stream` 可以监控到请求数据，
+    -   访问
+            `http://localhost:8060/hystrix`,可以看到可视化的监控界面,输入要监控的地址节点即可看到该节点的可视化数据监控。
+
+仪表盘首页参数介绍:
+    Delay:
+        该参数用来控制服务器上的轮询监控信息的延迟时间,默认为2000毫秒,可以同诺配置该属性来降低客户端的网络和CPU测试。
+    Title:
+        Hystrix 监控实例标题
+
+注意：
+    当使用Hystrix Board来监控Spring Cloud Zuul 构建的API网关时,Thread Pool 信息会一直处于 Loading 状态,这是由于 Zuul 默认会使用信号量
+    来实现隔离,只有通过 Hystrix 配置把隔离机制改为线程池才得以展示
