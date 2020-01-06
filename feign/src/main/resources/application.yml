@@ -12,9 +12,12 @@ eureka:
     prefer-ip-address: true
     hostname: 127.0.0.1
 
+logging:
+  level:
+    cn.wengzi.feignclient: debug
 feign:
   hystrix:
     enabled: true
-logging:
-  level:
-    cn.wengzi.external: debug
+
+
+

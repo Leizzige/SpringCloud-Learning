@@ -1,7 +1,7 @@
-package cn.wengzi.external.fallback;
+package cn.wengzi.feignclient;
 
-import cn.wengzi.pojo.Student;
-import cn.wengzi.external.feignclient.FeignProviderClient;
+import cn.wengzi.entity.Student;
+import cn.wengzi.feignclient.FeignProviderClient;
 import org.springframework.stereotype.Component;
 
 import java.util.Collection;
@@ -11,7 +11,7 @@ import java.util.Collection;
  * @date 2019/10/27 afternoon 14:10
  * @description Hystrix 熔断机制,定义容错处理逻辑
  */
-@Component
+//@Component
 public class FeignError implements FeignProviderClient {
     @Override
     public Collection<Student> findAll() {
